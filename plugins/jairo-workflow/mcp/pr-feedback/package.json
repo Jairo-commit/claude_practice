@@ -1,0 +1,22 @@
+{
+  "name": "pr-feedback-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that fetches GitHub PR review feedback and serves the address-pr-feedback workflow",
+  "scripts": {
+    "test": "tsx --test test/*.test.ts",
+    "build": "esbuild src/server.ts --bundle --minify --platform=node --format=esm --target=node20 --loader:.md=text --outfile=dist/server.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "esbuild": "^0.28.2",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  },
+  "private": true,
+  "type": "module"
+}

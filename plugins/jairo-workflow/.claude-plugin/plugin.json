@@ -1,0 +1,9 @@
+{
+  "name": "jairo-workflow",
+  "version": "0.1.0",
+  "description": "Jairo's Claude Code workflows, starting with addressing PR review feedback through the pr-feedback MCP server",
+  "author": {
+    "name": "jairo-commit"
+  },
+  "repository": "https://github.com/Jairo-commit/claude_practice"
+}

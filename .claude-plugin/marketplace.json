@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jairo-commit",
+  "description": "Jairo's personal Claude Code plugins",
+  "owner": {
+    "name": "jairo-commit"
+  },
+  "plugins": [
+    {
+      "name": "jairo-workflow",
+      "description": "Jairo's Claude Code workflows, starting with addressing PR review feedback through the pr-feedback MCP server",
+      "source": "./plugins/jairo-workflow",
+      "category": "development"
+    }
+  ]
+}
