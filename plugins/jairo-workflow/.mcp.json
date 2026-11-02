@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "pr-feedback": {
-      "command": "node",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp/pr-feedback/dist/server.js"]
-    }
-  }
-}

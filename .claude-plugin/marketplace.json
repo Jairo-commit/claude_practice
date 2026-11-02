@@ -3,12 +3,12 @@
   "name": "jairo-commit",
   "description": "Jairo's personal Claude Code plugins",
   "owner": {
-    "name": "jairo-commit"
+    "name": "jairo mejia"
   },
   "plugins": [
     {
       "name": "jairo-workflow",
-      "description": "Jairo's Claude Code workflows, starting with addressing PR review feedback through the pr-feedback MCP server",
+      "description": "Jairo's Claude Code workflows, starting with addressing PR review feedback",
       "source": "./plugins/jairo-workflow",
       "category": "development"
     }
