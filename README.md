@@ -4,10 +4,13 @@ My Claude Code workflows, packaged as a plugin marketplace.
 
 ## Install
 
+```bash
+claude plugin marketplace add Jairo-commit/claude
+claude plugin install jairo-workflow@jairo-commit
 ```
-/plugin marketplace add Jairo-commit/claude
-/plugin install jairo-workflow@jairo-commit
-```
+
+Inside a Claude Code session, the same commands work as `/plugin marketplace add …` and
+`/plugin install …`.
 
 Needs an authenticated `gh` on the machine that runs Claude Code.
 
