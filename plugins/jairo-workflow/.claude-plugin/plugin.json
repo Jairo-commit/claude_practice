@@ -1,7 +1,7 @@
 {
   "name": "jairo-workflow",
-  "version": "0.2.0",
-  "description": "Jairo's Claude Code workflows, starting with addressing PR review feedback",
+  "version": "1.0.0",
+  "description": "Jairo's Claude Code workflows: addressing PR review feedback and explaining concepts",
   "author": {
     "name": "jairo-commit"
   },

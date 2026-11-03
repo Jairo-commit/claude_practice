@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "jairo-workflow",
-      "description": "Jairo's Claude Code workflows, starting with addressing PR review feedback",
+      "description": "Jairo's Claude Code workflows: addressing PR review feedback and explaining concepts",
       "source": "./plugins/jairo-workflow",
       "category": "development"
     }
